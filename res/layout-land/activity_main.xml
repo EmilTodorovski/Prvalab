@@ -1,0 +1,40 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity" >
+	
+    
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:text="@string/naslov" />
+    <LinearLayout 
+        android:orientation="vertical"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignParentRight="true"
+        android:weightSum="2"
+        >
+    	
+    	<Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/kopce_nov"
+        android:layout_weight="1"
+        android:id="@+id/kopce_nov"
+        >
+        </Button>   
+        <Button
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:text="@string/kopce_star"
+        android:layout_weight="1"
+        android:id="@+id/kopce_istorija"
+        >
+    	 
+    	</Button>
+        </LinearLayout>
+        </RelativeLayout>

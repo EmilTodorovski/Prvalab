@@ -1,0 +1,66 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
+    <LinearLayout 
+        android:id="@+id/chatlayout"
+        android:orientation="horizontal"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:weightSum="5"
+        
+        >
+        
+        <EditText 
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/textpole"
+            android:inputType="text"
+            android:layout_weight="1"
+            >
+            </EditText>
+
+            <LinearLayout
+                android:layout_weight="4"
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:orientation="vertical" 
+                android:weightSum="2">
+			
+        <Button 
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:id="@+id/kopce_prati"
+            android:text="@string/kopce_send">  
+   		</Button>
+   		<Button 
+            android:layout_width="fill_parent"
+            android:layout_weight="1"
+            android:layout_height="fill_parent"
+            android:id="@+id/kopce_file"
+            android:text="@string/kopce_file">
+   		</Button>
+        </LinearLayout>
+        
+       </LinearLayout>
+       
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/labela"
+        android:layout_above="@id/chatlayout"
+        android:text="PROBEN TEXT"
+        ></TextView>
+    
+    <ListView 
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_above="@+id/labela"
+        android:id="@+id/lista"
+        ></ListView>
+    
+    
+</RelativeLayout>

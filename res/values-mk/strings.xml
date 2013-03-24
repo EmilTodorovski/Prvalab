@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Prvalab</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="kopce_nov">Nov razgovor</string>
+    <string name="kopce_star">Stari razgovori</string>
+    <string name="naslov">Finki chat</string>
+    <string name="kopce_send">Prati</string>
+    <string name="kopce_file">Dodadi file</string>
+
+</resources>
