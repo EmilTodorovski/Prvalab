@@ -30,7 +30,7 @@ public class MainActivity extends Activity {
 		super.onResume();
 	
 		Button btn=(Button)findViewById(R.id.kopce_nov);
-		
+		Button btn2 = (Button)findViewById(R.id.kopce_vesti);
 		btn.setOnClickListener(new OnClickListener() {
 			
 			@Override
@@ -39,6 +39,15 @@ public class MainActivity extends Activity {
 			
 				Intent namera = new Intent(MainActivity.this, ChatActivity.class);
 				startActivity(namera);
+			}
+		});
+		btn2.setOnClickListener(new OnClickListener() {
+			
+			@Override
+			public void onClick(View v) {
+				Intent namera = new Intent(MainActivity.this, VestiActivity.class);
+				startActivity(namera);
+				
 			}
 		});
 	

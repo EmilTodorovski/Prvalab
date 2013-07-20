@@ -9,5 +9,6 @@
     <string name="naslov">Finki chat</string>
     <string name="kopce_send">Prati</string>
     <string name="kopce_file">Dodadi file</string>
+    <string name="kopce_vesti">Vesti</string>
 
 </resources>
