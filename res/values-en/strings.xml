@@ -5,9 +5,9 @@
     <string name="hello_world">Hello world!</string>
     <string name="menu_settings">Settings</string>
     <string name="kopce_nov">New chat</string>
-    <string name="kopce_star">history</string>
+    <string name="kopce_star">History</string>
     <string name="naslov">Finki chat</string>
     <string name="kopce_send">Send</string>
     <string name="kopce_file">Add file</string>
-
+	<string name="lbl_vnesi">Write here</string>
 </resources>

@@ -1,4 +1,4 @@
-package com.example.prvalab;
+spackage com.example.prvalab;
 
 import android.content.Context;
 import android.view.LayoutInflater;
